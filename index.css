@@ -1,0 +1,139 @@
+/* Set the background of the page to an image of choice */
+/* Set the font family and color */
+body{ 
+    background-image: url("nebula.png");
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+/* Center the text in the first header */
+/* Create a grooved border, set its width and color */
+h1{
+    text-align: center;
+    border: groove;
+    border-width: 20px;
+    border-color: olivedrab;
+    font-size:50px;
+    margin-left: 175px;
+}
+
+/* Set the section to flex, align the items in a row and wrap them to fit the window */
+section{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* Align the text in each article header to center and underline them */
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* set each article to flex to a specified width/length  */
+/* set the margin between each article block */
+/* set the border style, width and color */
+/* select a background color to each article block and make it transparent */
+article{
+    flex: 250px;
+    margin: 2%;
+    border-width: 5px;
+    border-style: ridge;
+    border-color: olivedrab;
+    background-color: rgba(245, 245, 245, 0.05);
+}
+
+/* give the text within the block a margin to the border */
+p{
+    margin: 2%;
+}
+
+/* float the image/logo to the top left of the window */
+img{
+    float: left;
+    margin-left: 15px;
+}
+
+/* float the sidebar nav to the top left under the logo */
+/* set the width of of the nav and bolden the font within */
+.sideVertNav{
+    width: 155px;
+    float: left;
+    margin-top: 50px;
+    margin-left: -165px;
+    font-weight: bold;
+    border-color: darkgrey;
+}
+
+/* set the background color of each link block */
+/* pad the blocks */
+/* set the color the text, remove any decoration of the text */
+/* set a border to each nav element */
+.sideVertNav a{
+    background-color: olivedrab;
+    color: black;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    border-style: inset;
+}
+
+/* change the color of the nav element as the cursor hovers over them */
+.sideVertNav a:hover{
+    background-color: darkgray;
+}
+
+/* set the footer to a block display, give it a border */
+/* align the text within the footer to center */
+/* make the width and position of the footer dynamic */
+footer{
+    display: block;
+    text-align: center;
+    border-style: solid;
+    margin-left: calc(185px + (21%));
+    width: calc((100% - 185px) / 2);
+}
+
+#PND{
+    text-decoration: overline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#link_id{
+    display: inline-flex;
+    margin-left: 15%;
+    margin-right: 15px;
+    list-style: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.sideVertNav_2{
+    width: 155px;
+    position: fixed;
+    font-weight: bold;
+}
+
+.sideVertNav_2 a{
+    background-color: olivedrab;
+    color: black;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    border-style: inset;
+}
+
+/* change the color of the nav element as the cursor hovers over them */
+.sideVertNav_2 a:hover{
+    background-color: darkgray;
+}
